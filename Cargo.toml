@@ -1,0 +1,11 @@
+[package]
+name = "archlinux-archive-helper"
+version = "0.1.0"
+authors = ["smolck <46855713+smolck@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.10.0-alpha.2"
+tokio = "0.2.0-alpha.6"
+scraper = "0.11.0"
+structopt = { version = "0.3", default-features = false }
